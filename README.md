@@ -3,15 +3,17 @@ GymPass API SOLID Node.js
 <br>
 <br>
 </h1>
+
+<div align="right">
+    Clique <a href="https://github.com/luc-ribeiro/gympass-solid-node/blob/main/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
 <br>
 
-## 💻 Projeto
-Este projeto foi criado durante o curso de Node.js da Rocketseat.
+## 💻 Project
+The project involves creating a REST API for gym check-ins, applying **SOLID and Design Patterns** concepts. It uses technologies like **Fastify, Prisma ORM, Vitest, and Docker**.
+The goal is to practice creating APIs using these concepts and technologies, and also emphasize the importance of **building a well-structured and easily maintainable application**.
 
-O projeto consiste na criação de uma API REST para check-ins em academias, aplicando conceitos de **SOLID e Design Patterns**. Utilizando tecnologias como <strong>Fastify, Prisma ORM, Vitest e Docker</strong>.
-O objetivo é praticar a criação de APIs com a utilização desses conceitos e tecnologias, e também, enfatizar a importância de <strong>criar uma aplicação bem estruturada e de fácil manutenibilidade.</strong>
-
-## 🚀 Tecnologias
+## 🚀 Technologies
 
 - **Node.js** 
 - **TypeScript**
@@ -23,72 +25,72 @@ O objetivo é praticar a criação de APIs com a utilização desses conceitos e
 - **Zod**
 - **PostgreSQL**
 
-## :pencil: Conceitos
+## :pencil: Concepts
 
 - **SOLID**
-- **Testes E2E e Unitários**
+- **E2E and Unit Tests**
 - **TDD**
 - **Design Patterns**: Factory, Adapter, Repository
 - **InMemoryTestDatabase**
 - **RBAC**
 - **Refresh Token**
 
-## :page_facing_up: Como utilizar
+## :page_facing_up: How to Use
 
-- Faça um clone deste repositório:
+- Clone this repository:
 
 ```sh
   $ git clone https://github.com/luc-ribeiro/gympass-solid-node.git
 ```
 
-- Instale as dependências:
+- Install the dependencies:
 
 ```sh
-  # com npm
+  # with npm
   $ npm install
 
-  # com yarn
+  # with yarn
   $ yarn install
 ```
 
-- Crie um arquivo ```.env``` seguindo a estrutura do ```.env.example```
+- Create a ```.env``` file following the structure of ```.env.example```
 
-- É importante que a URL do Banco de Dados seja a mesma que a do arquivo ```docker-compose.yaml```, ou vice-versa
+- It's important that the Database URL is the same as in the ```docker-compose.yaml``` file, or vice versa
 
-- Rode o Docker Compose para iniciar o container com o Banco de Dados:
+- Run Docker Compose to start the container with the Database:
 
 ```sh
   $ docker compose up
 ```
 
-- Rode as migrations:
+- Run the migrations:
 
 ```sh
-  # com npm
+  # with npm
   $ npx prisma db push
 
-  # com yarn
+  # with yarn
   $ yarn prisma db push
 ```
 
-- Execute o comando:
+- Run the project:
 
 ```sh
-  # com npm
+  # with npm
   $ npm run dev
 
-  # com yarn
+  # with yarn
   $ yarn dev
 ```
 
-- O projeto rodará em `localhost:3333`
+- The project will run on `localhost:3333`
 
-- Para visualizar o Banco de Dados:
+- To visualize the Database:
 
 ```sh
-  # com npm
+  # with npm
   $ npx prisma studio
 
-  # com yarn
+  # with yarn
   $ yarn prisma studio
 ```
